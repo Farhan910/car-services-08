@@ -3,14 +3,17 @@
     height: 200px;
     width: 200px;
     border: radius 10px;
+    border-radius: 10px 10px 0 0;
 }
 .cart{
     margin-top: 40px;
     border: solid 1px black;
-    width: 100%;
+    width: 200px;
+    border-radius: 10px;
 }
 .cart-info{
     line-height:8px;
+    margin-left: 5px;
 }
 .btn-cart{
     background-color: rgb(231, 123, 141);
@@ -34,4 +37,7 @@
         margin-left: 10px;
     }
     
+}
+.color{
+    color: red;
 }

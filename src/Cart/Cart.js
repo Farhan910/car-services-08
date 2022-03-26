@@ -8,11 +8,12 @@ const Cart = ({cart}) => {
     return (
         
         <div className="cart">
-          <div className="cart-info">
           <img src={img} alt="" />
-            <h3>Name {name} </h3>
-            <h4>Price : ${price}</h4>
-            <h4>id : {id}</h4>
+          <div className="cart-info">
+          
+            <h3><small className="color">Name : </small>{name} </h3>
+            <h4><small className="color">Price : </small>${price}</h4>
+            <h4><small className="color">ID : </small> {id}</h4>
           </div>
             
             

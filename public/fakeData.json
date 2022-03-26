@@ -2,7 +2,7 @@
 [
     {
         "id": "01",
-        "name": "Lamborghini",
+        "name": "BMW",
         "img": "https://i.ibb.co/kKVLBNm/automotive-1838744-960-720.jpg ",
         "price" : "1507"
 
@@ -30,14 +30,14 @@
     },
     {
         "id": "05",
-        "name": "Toyota",
+        "name": "Ferrari Red",
         "img": "https://i.ibb.co/C5s1jPB/ferrari-3664450-340.webp",
         "price" : "6470"
 
     },
     {
         "id": "06",
-        "name": "BMW",
+        "name": "Lamborghini",
         "img": "https://i.ibb.co/SXkcHsV/lamborghini-618356-960-720.jpg",
         "price" : "9100"
 

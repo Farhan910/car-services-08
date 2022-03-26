@@ -12,9 +12,10 @@ const Main = ({ carData ,AddToCartHandler }) => {
       <div className="card">
         <img src={img} alt="" />
         <div className="car-info">
-        <h2>Name : {name}</h2>
-        <p>ID : {id}</p>
-        <p> Price : ${price}</p>
+        <h2><small className="color">Name : </small>{name}</h2>
+        <p><small className="color">Price : </small>${price}</p>
+        <p><small className="color">ID : </small>{id}</p>
+        
         </div>
         <div>
           <button onClick={ () => AddToCartHandler(carData)} className="btn-card"><h3 className="icon-name">Add to cart <small><BsCartCheck/></small></h3> </button>

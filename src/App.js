@@ -2,11 +2,14 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Main from "./Main/Main";
 import Cart from "./Cart/Cart";
+import Header from "./Header/Header";
 import { FcAcceptDatabase } from 'react-icons/fc';
+
 
 function App() {
   const [cars, setCars] = useState([]);
   const [cart,setCart] = useState([]);
+  <h1>this is a car shop</h1>
   
 
   useEffect(() => {
@@ -48,10 +51,15 @@ function App() {
     
   
   return (
-    <div className="main">
 
     
-      <div className="cart-container">
+    <div >
+    <div>
+          <Header/>
+     </div>
+    
+    <div className="main" >
+    <div className="cart-container">
       {cars.map((car) => (
         <Main key={car.id} carData={car} AddToCartHandler={AddToCartHandler}/>
         
@@ -75,6 +83,8 @@ function App() {
         
         
       </div>
+    </div>
+      
       <div className="answers">
          <h2>জাভাস্ক্রিপ্ট রিয়েক্ট কিভাবে কাজ করে  ?</h2>
         <h4>আমরা প্রথমে Components নামে একটা জিনিস লিখি যেটা কে সিম্পল ভাবে কোড বলা হয় . 
