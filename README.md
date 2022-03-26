@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## My Live site [LIve site link ](https://react-app-assignment-8.netlify.app)
+## My Live site [Live site link ](https://react-app-assignment-8.netlify.app)
 ## Available Scripts
 
 In the project directory, you can run:
