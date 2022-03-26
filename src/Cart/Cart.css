@@ -6,6 +6,8 @@
 }
 .cart{
     margin-top: 40px;
+    border: solid 1px black;
+    width: 100%;
 }
 .cart-info{
     line-height:8px;
@@ -25,4 +27,11 @@
     background-color: rgb(63, 44, 47);
     color: white;
     transition:1s;
+}
+
+@media screen and (max-width:  500px) {
+    .btn-cart{
+        margin-left: 10px;
+    }
+    
 }

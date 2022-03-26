@@ -56,3 +56,23 @@ padding: 10px;
     font-size: 16px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+    .cart-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .main{
+        display:grid;
+        grid-template-columns: 5fr;
+    }
+    .cart-container img{
+        height:250px;
+        width: 330px;
+        padding: 10px;
+        
+        
+        
+    }
+        
+}

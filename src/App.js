@@ -19,12 +19,13 @@ function App() {
 
   const AddToCartHandler = (car) =>{
     const isExist = cart.find(item => item.id === car.id)
-    
-    
     if(!isExist){
       const newCart = [...cart,car]
       setCart(newCart);
       console.log(newCart);
+    }
+    if(cart.length >= 4){
+      alert('This is out of the cart')
     }
     
     }
@@ -35,10 +36,12 @@ function App() {
   
     }
     const handleUpdate = () => {
-      Math.floor(Math.random(cart) *1);
-      return(
-        setCart(cart)
-      )
+      const random = cart[Math.floor(Math.random()* cart.length)];
+      const newCart = [random]
+      setCart(newCart);
+      
+       
+      
       
       
     }
