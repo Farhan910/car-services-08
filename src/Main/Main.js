@@ -17,7 +17,7 @@ const Main = ({ carData ,AddToCartHandler }) => {
         <p> Price : ${price}</p>
         </div>
         <div>
-          <button onClick={ () => AddToCartHandler(carData)} className="btn-cart"><h3 className="icon-name">Add to cart <small><BsCartCheck/></small></h3> </button>
+          <button onClick={ () => AddToCartHandler(carData)} className="btn-card"><h3 className="icon-name">Add to cart <small><BsCartCheck/></small></h3> </button>
         </div>
         
       </div>

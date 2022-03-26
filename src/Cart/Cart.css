@@ -10,7 +10,7 @@
 .cart-info{
     line-height:8px;
 }
-.btn-edit{
+.btn-cart{
     background-color: rgb(231, 123, 141);
     width: 150px; 
     height: 40px;
@@ -18,9 +18,10 @@
     border:none;
     border-radius:10px;
     font-weight: 700;
+    margin-top: 30px;
 
 }
-.btn-edit:hover{
+.btn-cart:hover{
     background-color: rgb(63, 44, 47);
     color: white;
     transition:1s;

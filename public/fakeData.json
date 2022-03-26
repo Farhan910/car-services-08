@@ -50,15 +50,15 @@
 
     },
     {
-        "id": "8",
+        "id": "08",
         "name": "Hundai",
         "img": "https://i.ibb.co/ws19jXB/photomanipulation-2110496-340.jpg",
         "price" : "3000"
 
     },
     {
-        "id": "9",
-        "name": "lamborghini",
+        "id": "09",
+        "name": "Lamborghini",
         "img": "https://i.ibb.co/VwwXYzT/tokyo-4132144-960-720.jpg",
         "price" : "1500"
 

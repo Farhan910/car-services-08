@@ -24,7 +24,7 @@ padding: 10px;
     
 }
 .card:hover{
-    box-shadow: 2px 2px 20px 2px rgb(160, 126, 126);
+    box-shadow: 2px 2px 30px 2px black;
     transition:0.5s ;
     border : 1px solid rgb(126, 89, 89);
 }
@@ -33,7 +33,7 @@ padding: 10px;
     font-weight:700;
     
 }
-.btn-cart{
+.btn-card{
     width: 100%;
     background:rgb(223, 120, 137);
     height: 40px;
@@ -42,7 +42,7 @@ padding: 10px;
     transition:1s,
     
 }
-.btn-cart:hover{
+.btn-card:hover{
     background:rgb(66, 50, 50);
     color: white;
     
