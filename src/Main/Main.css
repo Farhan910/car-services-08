@@ -1,0 +1,37 @@
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.main{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cart-container img{
+height:250px;
+width: 300px;
+padding: 10px;
+
+
+
+}
+.card{
+    border: 1px solid red;
+    margin: 20px;
+    border-radius: 9px;
+}
+.car-info{
+    padding-left: 14px;
+}
+.btn-cart{
+    width: 100%;
+    background:rgb(223, 120, 137);
+    height: 40px;
+    border-radius: 0 0 8px 8px;
+    border: none;
+}
+.btn-cart:hover{
+    background:rgb(121, 66, 66);
+    
+}

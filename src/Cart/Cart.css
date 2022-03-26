@@ -1,0 +1,17 @@
+.cart img {
+
+    height: 200px;
+    width: 200px;
+    border: radius 10px;
+}
+.cart{
+    margin-top: 20px;
+}
+.btn-edit{
+    background-color: rgb(231, 123, 141);
+    width: 150px; 
+    height: 40px;
+    font-size:15px;
+    border:none;
+    border-radius:10px
+}

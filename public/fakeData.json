@@ -1,0 +1,70 @@
+
+[
+    {
+        "id": "1",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/kKVLBNm/automotive-1838744-960-720.jpg ",
+        "price" : "1507"
+
+    },
+    {
+        "id": "2",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/wMsZzzw/bmw-6706660-960-720.jpg",
+        "price" : "4250"
+
+    },
+    {
+        "id": "3",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/M10cNhZ/car-63930-960-720.jpg",
+        "price" : "5426"
+
+    },
+    {
+        "id": "4",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/GkmrPXs/car-4169979-340.webp",
+        "price" : "4123"
+
+    },
+    {
+        "id": "5",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/C5s1jPB/ferrari-3664450-340.webp",
+        "price" : "6470"
+
+    },
+    {
+        "id": "6",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/SXkcHsV/lamborghini-618356-960-720.jpg",
+        "price" : "9100"
+
+    },
+    {
+        "id": "7",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/3hQY83Z/mercedes-benz-841465-960-720.jpg",
+        "price" : "1640"
+
+    },
+    {
+        "id": "8",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/ws19jXB/photomanipulation-2110496-340.jpg",
+        "price" : "3000"
+
+    },
+    {
+        "id": "9",
+        "name": "lamborghini",
+        "img": "https://i.ibb.co/VwwXYzT/tokyo-4132144-960-720.jpg",
+        "price" : "1500"
+
+    }
+
+]
+
+
+
