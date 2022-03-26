@@ -1,6 +1,8 @@
 import React from 'react';
 import'./Cart.css'
 
+
+
 const Cart = ({cart}) => {
     const {name,id,img,price} = cart;
     

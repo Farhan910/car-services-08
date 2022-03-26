@@ -5,7 +5,6 @@ import Cart from "./Cart/Cart";
 import Header from "./Header/Header";
 import { FcAcceptDatabase } from 'react-icons/fc';
 
-
 function App() {
   const [cars, setCars] = useState([]);
   const [cart,setCart] = useState([]);
@@ -42,11 +41,7 @@ function App() {
       const random = cart[Math.floor(Math.random()* cart.length)];
       const newCart = [random]
       setCart(newCart);
-      
-       
-      
-      
-      
+     
     }
     
   
