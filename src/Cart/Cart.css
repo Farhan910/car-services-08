@@ -5,13 +5,23 @@
     border: radius 10px;
 }
 .cart{
-    margin-top: 20px;
+    margin-top: 40px;
+}
+.cart-info{
+    line-height:8px;
 }
 .btn-edit{
     background-color: rgb(231, 123, 141);
     width: 150px; 
     height: 40px;
-    font-size:15px;
+    font-size:13px;
     border:none;
-    border-radius:10px
+    border-radius:10px;
+    font-weight: 700;
+
+}
+.btn-edit:hover{
+    background-color: rgb(63, 44, 47);
+    color: white;
+    transition:1s;
 }

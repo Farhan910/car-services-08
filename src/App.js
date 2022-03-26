@@ -2,6 +2,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Main from "./Main/Main";
 import Cart from "./Cart/Cart";
+import { FcAcceptDatabase } from 'react-icons/fc';
 
 function App() {
   const [cars, setCars] = useState([]);
@@ -17,15 +18,15 @@ function App() {
   
 
   const AddToCartHandler = (car) =>{
-     const newCart = [...cart,car]
-    setCart(newCart);
-    if (newCart.length > 4) {
-      alert('sdsad');
-      
-      
+    const isExist = cart.find(item => item.id === car.id)
+    if(!isExist){
+      const newCart = [...cart,car]
+      setCart(newCart);
     }
     
-  }
+    }
+    
+  
   return (
     <div className="main">
 
@@ -47,9 +48,11 @@ function App() {
           
          
         ))}
-        <button  className="btn-edit">choose one for me </button>
+        <button className="btn-edit">Choose one for me <small><FcAcceptDatabase/></small> </button>
         
-        
+        <div>
+         
+        </div>
         
       </div>
     
